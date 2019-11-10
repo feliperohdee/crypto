@@ -1,6 +1,6 @@
 {
-  "name": "smallorange-crypto",
-  "version": "1.0.1",
-  "main": "index.js",
-  "license": "MIT"
+    "name": "encrypt-decrypt",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
 }
