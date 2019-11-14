@@ -1,6 +1,6 @@
 const crypto = require('crypto');
 
-const smallOrangeCrypto = (key, defaultIv, algorithm = 'aes-256-cbc') => {
+const c = (key, defaultIv, algorithm = 'aes-256-cbc') => {
     if (!key) {
         throw new Error('no key provided.');
     }
@@ -62,8 +62,8 @@ const smallOrangeCrypto = (key, defaultIv, algorithm = 'aes-256-cbc') => {
     };
 };
 
-smallOrangeCrypto.randomBytes = (size = 16) => {
+c.randomBytes = (size = 16) => {
     return crypto.randomBytes(size);
 };
 
-module.exports = smallOrangeCrypto;
+module.exports = c;

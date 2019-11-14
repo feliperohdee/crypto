@@ -1,7 +1,7 @@
         # yarn add simple-encrypt-decrypt
 
         const assert = require('assert');
-        const crypto = require('yarn add simple-encrypt-decrypt');
+        const crypto = require('simple-encrypt-decrypt');
         const {
             encrypt,
             decrypt
