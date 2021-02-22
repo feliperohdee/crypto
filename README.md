@@ -1,4 +1,4 @@
-        # yarn add simple-encrypt-decrypt
+        # yarn add https://github.com/feliperohdee/encrypt-decrypt
 
         const assert = require('assert');
         const crypto = require('simple-encrypt-decrypt');
